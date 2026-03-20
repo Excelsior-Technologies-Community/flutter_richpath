@@ -38,7 +38,7 @@ Add dependency in your pubspec.yaml
 ```
 dependencies:
   flutter_richpath:
-    path: ../flutter_richpath
+    path: https://github.com/Excelsior-Technologies-Community/flutter_richpath/tree/stage
 ```
 Then run:
 ```
