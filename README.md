@@ -58,6 +58,14 @@ https://github.com/user-attachments/assets/6371ea0d-ae88-40cf-b71c-5b54ff1b38f4
 flutter_richpath/
 │
 ├─ lib/
+│   │
+│   │
+│   ├─ flutter_richpath.dart
+│   │   // Library export file
+│   │
+│   ├─ main.dart
+│   │   // Demo example screen for testing library
+│   │
 │   └─ src/
 │       ├─ controller/
 │       │   └─ richpath_controller.dart
@@ -78,15 +86,9 @@ flutter_richpath/
 │       │   └─ richpath_svg_parser.dart
 │       │       // Parses SVG path string into Flutter Path
 │       │
-│       ├─ widget/
-│       │   └─ richpath_widget.dart
-│       │       // Main widget to render animated rich paths
-│       │
-│       ├─ flutter_richpath.dart
-│       │   // Library export file
-│       │
-│       └─ main.dart
-│           // Demo example screen for testing library
+│       └─ widget/
+│          └─ richpath_widget.dart
+│              // Main widget to render animated rich paths     
 │
 ├─ README.md
 │   // Package documentation
